@@ -1,0 +1,26 @@
+[
+  {
+    "id": "4733",
+    "position": "Revenue Clerk",
+    "grade": "5",
+    "qualification": [
+      "College of two years studies in college",
+      "Career Service Sub Professional/First Level Eligibility"
+    ],
+    "office": "Municipal Treasurer's Office",
+    "status": "Vacant",
+    "dateCreated": "Mar 12 2020  08:00:00 AM"
+  },
+  {
+    "id": "4732",
+    "position": "IT Administrator",
+    "grade": "5",
+    "qualification": [
+      "College of two years studies in college",
+      "Career Service Sub Professional/First Level Eligibility"
+    ],
+    "office": "Municipal Mayor's Office",
+    "status": "Closed",
+    "dateCreated": "Mar 12 2012 08:00:00 AM"
+  }
+]
