@@ -1,0 +1,24 @@
+[
+    {
+      "id": "1001",
+      "name": "Procurement of One Unit Brand New Hydraulic Excavator",
+      "budget": "13,000,000.00",
+      "prebid": "",
+      "deadline": "Jul 17, 2022",
+      "opening": "Jul 20, 2022",
+      "url": "google.com",
+      "status": "Closed",
+      "dateCreated": "Jul 07 2022  08:00:00 AM"
+    },
+    {
+        "id": "1002",
+        "name": "Procurement of One Unit Brand New Laptop",
+        "budget": "80,000.00",
+        "prebid": "",
+        "deadline": "Aug 30, 2022",
+        "opening": "Sep 05, 2022",
+        "url": "",
+        "status": "Open",
+        "dateCreated": "Aug 27 2022  08:00:00 AM"
+      }
+  ]

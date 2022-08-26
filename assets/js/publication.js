@@ -45,7 +45,7 @@ function displayData() {
 function findMatches(wordToMatch, positions) {
   return positions
     .sort((next, prev) => {
-      console.log(next, prev);
+      (next, prev);
       let prevDate = new Date(prev.dateCreated);
       let nextDate = new Date(next.dateCreated);
       return prevDate - nextDate;
@@ -53,7 +53,6 @@ function findMatches(wordToMatch, positions) {
     .filter((data) => data.status === posStatus)
     .filter((data) => {
       const regex = new RegExp(wordToMatch, 'gi');
-      console.log(posStatus);
       return data.position.match(regex) || data.office.match(regex);
     });
 }
