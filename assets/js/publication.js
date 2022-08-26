@@ -1,3 +1,4 @@
+// const url = '/assets/files/positions.json';
 const url = 'https://hidlaw-panay.github.io/panay/assets/files/positions.json';
 let positions = [];
 let posStatus = 'Vacant';
@@ -17,23 +18,24 @@ function setStatus() {
 function displayData() {
   const html = positions
     .sort((next, prev) => {
-      console.log(next, prev);
       let prevDate = new Date(prev.dateCreated);
       let nextDate = new Date(next.dateCreated);
       return prevDate - nextDate;
     })
     .map((data) => {
       return `
-            <tr">
-                <td>${data.id}</td>
-                <td>${data.position}</td>
-                <td>${data.grade}</td>
-                <td>${Object.values(data.qualification)
-                  .map((q) => q)
-                  .join('<br>')}</td>
-                <td>${data.office}</td>
-                <td class="${data.status === 'Closed' ? 'text-danger' : ''}">${data.status}</td>
-            </tr>
+        <tr">
+          <td>${data.id}</td>
+          <td>${data.position}</td>
+          <td>${data.grade}</td>
+          <td>${Object.values(data.qualification)
+            .map((q) => q)
+            .join('<br>')}</td>
+          <td>${data.office}</td>
+          <td class="${data.status === 'Closed' ? 'text-danger' : ''}">${
+      data.status
+    }</td>
+        </tr>
         `;
     })
     .join('');
@@ -75,7 +77,9 @@ function displayMatches() {
               .map((q) => q)
               .join('<br>')}</td>
             <td>${data.office}</td>
-            <td class="${data.status === 'Closed' ? 'text-danger' : ''}">${data.status}</td>
+            <td class="${data.status === 'Closed' ? 'text-danger' : ''}">${
+          data.status
+        }</td>
         </tr>
     `;
       })

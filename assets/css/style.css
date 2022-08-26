@@ -612,9 +612,10 @@ section {
 .featured .icon-box:hover {
   background: #c82627;
 }
-.featured .icon-box:hover i, .featured .icon-box:hover h3 a, .featured .icon-box:hover p {
+.featured .icon-box:hover i, .featured .icon-box:hover h3 a, .featured .icon-box:hover p, .featured .icon-box:hover ul{
   color: #fff;
 }
+
 
 /*--------------------------------------------------------------
 # About
