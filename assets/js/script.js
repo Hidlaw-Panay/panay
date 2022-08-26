@@ -45,3 +45,15 @@ if(footer) {
   });
 
 }
+
+window.onload = function() {
+  var mainRoute = window.location.pathname.split('/')[1];
+  var routeName = mainRoute.split('.')[0];
+  setTimeout(() => {
+    let navItem = document.querySelector(`[data-route="${routeName}"]`);
+
+    if(navItem) {
+      navItem.classList.add('active')
+    }
+  }, 250);
+}
