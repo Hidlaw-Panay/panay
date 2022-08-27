@@ -1,5 +1,5 @@
-const url = '/assets/files/blogs.json';
-// const url = 'https://hidlaw-panay.github.io/panay/assets/files/blogs.json';
+// const url = '/assets/files/blogs.json';
+const url = 'https://hidlaw-panay.github.io/panay/assets/files/blogs.json';
 let routeName;
 let blogs = [];
 let blogDiv;
