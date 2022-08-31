@@ -17,9 +17,10 @@ function displayData() {
         return `
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="member">
-              <img src="${data.url}" alt="" />
+              <img src="${data.url ? data.url : '/assets/img/team/placeholder.jpg'}" alt="${data.last_name}" />
               <h4>${data.first_name} ${data.middle_name ? data.middle_name[0] + '.' : ''} ${data.last_name}</h4>
               <span>${data.position}</span>
+              <span>${data.office}</span>
               ${data.designation ? `<h6 class="mt-2">${Object.values(data.designation).map((d) => d).join('<br>')}</h6>` : ''}
               <p>
                 ${data.qualification}

@@ -1,57 +1,167 @@
 [
   {
-    "id": "4733",
-    "first_name": "Walter",
+    "id": "1002",
+    "first_name": "Syvel",
     "middle_name": "",
-    "last_name": "White",
-    "position": "Chief Executive Officer",
-    "office": "Municipal Treasurer's Office",
-    "url": "/assets/img/team/team-1.jpg",
+    "last_name": "Billanes",
+    "position": "Department Head",
+    "office": "Municipal Social Welfare and Development Office",
+    "url": "/assets/img/team/department-heads/Syvel_Billanes_MSWDO.jpg",
     "qualification": [
-      "College of two years studies in college",
-      "Career Service Sub Professional/First Level Eligibility"
     ],
     "designation": [
-        "College of two years studies in college",
-        "Career Service Sub Professional/First Level Eligibility"
       ],
     "order": 1,
     "type": "department-head"
   },
   {
-    "id": "4734",
-    "first_name": "Pablo",
-    "middle_name": "Gaviria",
-    "last_name": "Escobar",
-    "position": "Chief Executive Officer",
-    "office": "Municipal Treasurer's Office",
-    "url": "/assets/img/team/team-3.jpg",
+    "id": "1003",
+    "first_name": "Dr. Oliver",
+    "middle_name": "",
+    "last_name": "Andrada",
+    "position": "Department Head",
+    "office": "Municipal Health Office",
+    "url": "/assets/img/team/department-heads/Dr_Oliver_Andrada_Health.jpg",
     "qualification": [
-      "College of two years studies in college",
-      "Career Service Sub Professional/First Level Eligibility"
     ],
     "designation": [
-        "College of two years studies in college",
-        "Career Service Sub Professional/First Level Eligibility"
       ],
     "order": 2,
     "type": "department-head"
   },
   {
-    "id": "4735",
-    "first_name": "Griselda",
+    "id": "1004",
+    "first_name": "Editha",
     "middle_name": "",
-    "last_name": "Blanco",
-    "position": "Something High",
-    "office": "Municipal Mayor's Office",
-    "url": "/assets/img/team/team-2.jpg",
+    "last_name": "Dollete",
+    "position": "OIC, Department Head",
+    "office": "Municipal Agriculture Office",
+    "url": "/assets/img/team/department-heads/Editha_Dollete_Agriculture.jpg",
     "qualification": [
-      "Career Service Sub Professional/First Level Eligibility"
     ],
     "designation": [
-        "College of two years studies in college"
       ],
-    "order": 1,
-    "type": "sb-member"
+    "order": 3,
+    "type": "department-head"
+  },
+  {
+    "id": "1005",
+    "first_name": "Jese",
+    "middle_name": "",
+    "last_name": "Baes",
+    "position": "Department Head",
+    "office": "Municipal Disaster Risk Reduction and Management Office",
+    "url": "/assets/img/team/department-heads/Jese_Baes_MDRRMO.jpg",
+    "qualification": [
+    ],
+    "designation": [
+      ],
+    "order": 4,
+    "type": "department-head"
+  },
+  {
+    "id": "1006",
+    "first_name": "Roualdo",
+    "middle_name": "",
+    "last_name": "Agustin",
+    "position": "OIC, Department Head",
+    "office": "Municipal Environment and Natural Resources Office",
+    "url": "/assets/img/team/department-heads/Roualdo_Agustin_MENRO.jpg",
+    "qualification": [
+    ],
+    "designation": [
+      ],
+    "order": 5,
+    "type": "department-head"
+  },
+  {
+    "id": "1007",
+    "first_name": "Vincent Emmanuel",
+    "middle_name": "",
+    "last_name": "Bermejo",
+    "position": "Department Head",
+    "office": "Municipal Administrator",
+    "url": "",
+    "qualification": [
+    ],
+    "designation": [
+      ],
+    "order": 6,
+    "type": "department-head"
+  },
+  {
+    "id": "1008",
+    "first_name": "Lia",
+    "middle_name": "",
+    "last_name": "Alojado",
+    "position": "Department Head",
+    "office": "Municipal Treasurer's Office",
+    "url": "/assets/img/team/department-heads/Lia_Alojado_Treasurers.jpg",
+    "qualification": [
+    ],
+    "designation": [
+      ],
+    "order": 7,
+    "type": "department-head"
+  },
+  {
+    "id": "1009",
+    "first_name": "Concepcion",
+    "middle_name": "",
+    "last_name": "Carillo",
+    "position": "Department Head",
+    "office": "Municipal Budget Office",
+    "url": "/assets/img/team/department-heads/Concepcion_Carillo_Budget.jpg",
+    "qualification": [
+    ],
+    "designation": [
+      ],
+    "order": 8,
+    "type": "department-head"
+  },
+  {
+    "id": "1010",
+    "first_name": "Maria Cristina",
+    "middle_name": "",
+    "last_name": "Flores-Capundan",
+    "position": "Department Head",
+    "office": "Municipal Accounting Office",
+    "url": "/assets/img/team/department-heads/Maria_Cristina_Flores_Capundan_Accounting.jpg",
+    "qualification": [
+    ],
+    "designation": [
+      ],
+    "order": 9,
+    "type": "department-head"
+  },
+  {
+    "id": "1011",
+    "first_name": "Franklin",
+    "middle_name": "",
+    "last_name": "Billanes",
+    "position": "Department Head",
+    "office": "Municipal Civil Registrar",
+    "url": "/assets/img/team/department-heads/Franklin_BIllanes_Civil_Registrar.jpg",
+    "qualification": [
+    ],
+    "designation": [
+      ],
+    "order": 10,
+    "type": "department-head"
+  },
+  {
+    "id": "1012",
+    "first_name": "Engr. Julito",
+    "middle_name": "",
+    "last_name": "Delmoro",
+    "position": "OIC, Department Head",
+    "office": "Municipal Engineering Office",
+    "url": "/assets/img/team/department-heads/Engr_Julito_Delmoro_OIC_Engineers.jpg",
+    "qualification": [
+    ],
+    "designation": [
+      ],
+    "order": 11,
+    "type": "department-head"
   }
 ]
