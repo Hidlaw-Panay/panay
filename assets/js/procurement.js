@@ -1,5 +1,4 @@
-// const url = '/assets/files/procurements.json';
-const url = 'https://hidlaw-panay.github.io/panay/assets/files/procurements.json';
+const url = '/assets/files/procurements.json';
 let procurements = [];
 let procStatus = 'Open';
 const procurementDiv = document.getElementById('procurement');

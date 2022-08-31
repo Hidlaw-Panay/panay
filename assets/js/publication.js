@@ -1,5 +1,4 @@
-// const url = '/assets/files/positions.json';
-const url = 'https://hidlaw-panay.github.io/panay/assets/files/positions.json';
+const url = '/assets/files/positions.json';
 let positions = [];
 let posStatus = 'Vacant';
 const tbody = document.getElementById('tbody');

@@ -1,0 +1,182 @@
+[
+  {
+    "id": "3001",
+    "tag": "apr2020",
+    "title": "Report on Fund Utilization and Status of Programs/Project/Activity Impementation for the Month of April 2020",
+    "value": [
+      {
+        "source": "BGCM",
+        "nadai": "April 16, 2020",
+        "title": "Procurement of PPEs Medicines Vitamins and Medical Supplies and Equiment, reagents and kits",
+        "location": "LGU-Panay",
+        "mode": "Negotiated",
+        "beneficiary": "100 Repatriates/LSIs 30 Health Personnels",
+        "received": "3,012,000.00",
+        "obligation": "3,012,000.00",
+        "disbursement": "3,011,908.00",
+        "period": "April 2020 - May 2020",
+        "status": "100% PPE. Medicines, Vitamins and other medical supplies and Equipment procured."
+      },
+      {
+        "source": "BGCM (DBM LBC No. 125)",
+        "nadai": "April 16, 2020",
+        "title": "Installation of Isolation Booths and Isolation Booths and Isolation Units including Purchase of related Equipment, Tents and Supplies",
+        "location": "LGU-Panay",
+        "mode": "Negotiated",
+        "beneficiary": "100 Repatriates/LSIs 30 Health Personnels",
+        "received": "3,008,501.00",
+        "obligation": "2,931,357.50",
+        "disbursement": "1,552,737.50",
+        "period": "April 2020 - May 2020",
+        "status": "52% Completion on Installation of Isolation Booths and Isolation Units"
+      },
+      {
+        "source": "BGCM (DBM LBC No. 125)",
+        "nadai": "April 16, 2020",
+        "title": "Food Transport and Accomodation Assistance to Medical and LGU Personnel engaged in COVID-19 related Programs/Projects and Activities",
+        "location": "LGU-Panay",
+        "mode": "",
+        "beneficiary": "200 Patients 50 Responders",
+        "received": "988,000.00",
+        "obligation": "--",
+        "disbursement": "--",
+        "period": "April 2020 - June 2020",
+        "status": ""
+      },
+      {
+        "source": "BGCM (DBM LBC No. 125)",
+        "nadai": "April 16, 2020",
+        "title": "Food Packages and Reliefs Assistance to affted Households",
+        "location": "LGU-Panay",
+        "mode": "",
+        "beneficiary": "13786 Households Beneficiaries",
+        "received": "4,950,000.00",
+        "obligation": "--",
+        "disbursement": "--",
+        "period": "April 2020 - May 2020",
+        "status": ""
+      }
+    ],
+    "order": 1
+  },
+  {
+    "id": "3002",
+    "tag": "may2020",
+    "title": "Report on Fund Utilization and Status of Programs/Project/Activity Impementation for the Month of May 2020",
+    "value": [
+      {
+        "source": "BGCM (DBM LBC No. 125)",
+        "nadai": "April 16, 2020",
+        "title": "Procurement of PPEs Medicines, Vitamins and Medical Supplies and Equipment, reagents and kits",
+        "location": "LGU-Panay",
+        "mode": "Negotiated",
+        "beneficiary": "100 Repatriates/LSIs 30 Health Personnels",
+        "received": "3,012,000.00",
+        "obligation": "3,012,000.00",
+        "disbursement": "3,011,908.00",
+        "period": "April 2020 - May 2020",
+        "status": "100% PPE. Medicines, Vitamins and other medical supplies and Equipment procured."
+      },
+      {
+        "source": "BGCM (DBM LBC No. 125)",
+        "nadai": "April 16, 2020",
+        "title": "Installation of Isolation Booths and Isolation Booths and Isolation Units including Purchase of related Equipment, Tents and Supplies",
+        "location": "LGU-Panay",
+        "mode": "Negotiated",
+        "beneficiary": "200 Patients 50 Responders",
+        "received": "3,008,501.00",
+        "obligation": "2,931,357.50",
+        "disbursement": "1,552,737.50",
+        "period": "April 2020 - May 2020",
+        "status": "69% Completion on Installation of Isolation Booths and Isolation Units"
+      },
+      {
+        "source": "BGCM (DBM LBC No. 125)",
+        "nadai": "April 16, 2020",
+        "title": "Food Transport and Accomodation Assistance to Medical and LGU Personnel engaged in COVID-19 related Programs/Projects and Activities",
+        "location": "LGU-Panay",
+        "mode": "",
+        "beneficiary": "200 Patients 50 Responders",
+        "received": "988,000.00",
+        "obligation": "988,000.00",
+        "disbursement": "67,200.00",
+        "period": "April 2020 - June 2020",
+        "status": "7% of Foods, Transport and Accomodation are provided for Medical personnel and frontliners engaged in COVID-19 related PPAs."
+      },
+      {
+        "source": "BGCM (DBM LBC No. 125)",
+        "nadai": "April 16, 2020",
+        "title": "Food Packages and Reliefs Assistance to affted Households",
+        "location": "LGU-Panay",
+        "mode": "Negotiated",
+        "beneficiary": "13,786 Households Beneficiaries",
+        "received": "4,950,000.00",
+        "obligation": "4,950,000.00",
+        "disbursement": "4,864,000.00",
+        "period": "April 2020 - May 2020",
+        "status": "98% of Foods/Relief Packs distributed to HHs in the LGU."
+      }
+    ],
+    "order": 1
+  },
+  {
+    "id": "3002",
+    "tag": "jun2020",
+    "title": "Report on Fund Utilization and Status of Programs/Project/Activity Impementation for the Month of May 2020",
+    "value": [
+      {
+        "source": "source",
+        "nadai": "date",
+        "title": "title",
+        "location": "location",
+        "mode": "mode",
+        "beneficiary": "beneficiary",
+        "received": "received",
+        "obligation": "obligation",
+        "disbursement": "disbursement",
+        "period": "period",
+        "status": "status"
+      },
+      {
+        "source": "source",
+        "nadai": "date",
+        "title": "title",
+        "location": "location",
+        "mode": "mode",
+        "beneficiary": "beneficiary",
+        "received": "received",
+        "obligation": "obligation",
+        "disbursement": "disbursement",
+        "period": "period",
+        "status": "status"
+      },
+      {
+        "source": "source",
+        "nadai": "date",
+        "title": "title",
+        "location": "location",
+        "mode": "mode",
+        "beneficiary": "beneficiary",
+        "received": "received",
+        "obligation": "obligation",
+        "disbursement": "disbursement",
+        "period": "period",
+        "status": "status"
+      },
+      {
+        "source": "source",
+        "nadai": "date",
+        "title": "title",
+        "location": "location",
+        "mode": "mode",
+        "beneficiary": "beneficiary",
+        "received": "received",
+        "obligation": "obligation",
+        "disbursement": "disbursement",
+        "period": "period",
+        "status": "status"
+      }
+    ],
+    "order": 1
+  }
+]

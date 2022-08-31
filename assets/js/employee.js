@@ -1,5 +1,4 @@
-// const url = '/assets/files/employees.json';
-const url = 'https://hidlaw-panay.github.io/panay/assets/files/employees.json';
+const url = '/assets/files/employees.json';
 let employees = [];
 const employeeDiv = document.getElementById('employees');
 const type = employeeDiv.dataset.type;
@@ -11,7 +10,7 @@ fetch(url)
 function displayData() {
   const html = employees
     .sort((next, prev) => {
-      return next.order - prev.order ;
+      return next.order - prev.order;
     })
     .map((data) => {
       if(data.type  === type) {

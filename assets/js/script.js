@@ -1,5 +1,3 @@
-// const url = '/assets/files/blogs.json';
-const url = 'https://hidlaw-panay.github.io/panay/assets/files/blogs.json';
 let routeName;
 let blogs = [];
 let blogDiv;
@@ -10,7 +8,7 @@ const blog = document.querySelector('#blog');
 const footer = document.querySelector('#footer');
 
 if(header) {
-  fetch('https://hidlaw-panay.github.io/panay/components/common/header.html')
+  fetch('/components/common/header.html')
   .then((res) => res.text())
   .then((data) => {
     header.innerHTML = data;
@@ -18,7 +16,7 @@ if(header) {
 }
 
 if(featured) {
-  fetch('https://hidlaw-panay.github.io/panay/components/home/featured.html')
+  fetch('/components/home/featured.html')
   .then((res) => res.text())
   .then((data) => {
     featured.innerHTML = data;
@@ -26,7 +24,7 @@ if(featured) {
 }
 
 if(services) {
-  fetch('https://hidlaw-panay.github.io/panay/components/home/services.html')
+  fetch('/components/home/services.html')
   .then((res) => res.text())
   .then((data) => {
     services.innerHTML = data;
@@ -34,16 +32,15 @@ if(services) {
 }
 
 if(blog) {
-  fetch('https://hidlaw-panay.github.io/panay/components/home/blog.html')
+  fetch('/components/home/blog.html')
   .then((res) => res.text())
   .then((data) => {
     blog.innerHTML = data;
   });
-
 }
 
 if(footer) {
-  fetch('https://hidlaw-panay.github.io/panay/components/common/footer.html')
+  fetch('/components/common/footer.html')
   .then((res) => res.text())
   .then((data) => {
     footer.innerHTML = data;
@@ -65,9 +62,10 @@ window.onload = function() {
     // set featured blog
     blogDiv = document.getElementById('featured-blog');
     if(blogDiv) {
+      const url = '/assets/files/blogs.json';
       fetch(url)
-      .then((blob) => blob.json())
-      .then((data) => blogs.push(...data));
+        .then((blob) => blob.json())
+        .then((data) => blogs.push(...data));
     }
   }, 250);
 
