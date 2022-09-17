@@ -163,5 +163,172 @@
       ],
     "order": 11,
     "type": "department-head"
+  },
+  {
+    "id": "1013",
+    "first_name": "Ronilo",
+    "middle_name": "",
+    "last_name": "Badones",
+    "position": "ABC President",
+    "office": "Sangguniang Bayan",
+    "url": "/assets/img/team/sb-members/ronilo_badoles.jpg",
+    "qualification": [
+    ],
+    "designation": [
+      "Committee on Finance & Appropriations",
+      "Committee on Environment and Natural Resources and Solid Waste Management",
+      "Committee on Environment and Natural Resources and Solid Waste Management"
+      ],
+    "order": 1,
+    "type": "sb-member"
+  },
+  {
+    "id": "1014",
+    "first_name": "Krezel",
+    "middle_name": "",
+    "last_name": "Rios",
+    "position": "SK Federation President",
+    "office": "Sangguniang Bayan",
+    "url": "/assets/img/team/sb-members/krezel_rios.jpg",
+    "qualification": [
+    ],
+    "designation": [
+      "Committee on Women, Children and Family",
+      "Committee on Youth and Sports Development"      
+      ],
+    "order": 2,
+    "type": "sb-member"
+  },
+  {
+    "id": "1015",
+    "first_name": "Candido",
+    "middle_name": "",
+    "last_name": "Bernales",
+    "position": "Sanguguniang Bayan Member",
+    "office": "Sangguniang Bayan",
+    "url": "/assets/img/team/sb-members/candido_bernales.jpg",
+    "qualification": [
+    ],
+    "designation": [
+      "Committee on Health and Human Development",
+      "Committee on Infrastructure, Transportation, Communication, Utilities and Land Use",
+      "Legislative Backstopping Committee"
+      ],
+    "order": 3,
+    "type": "sb-member"
+  },
+  {
+    "id": "1016",
+    "first_name": "Paolo",
+    "middle_name": "",
+    "last_name": "Besa",
+    "position": "Sanguguniang Bayan Member",
+    "office": "Sangguniang Bayan",
+    "url": "/assets/img/team/sb-members/paolo_besa.jpg",
+    "qualification": [
+    ],
+    "designation": [
+      ],
+    "order": 4,
+    "type": "sb-member"
+  },
+  {
+    "id": "1017",
+    "first_name": "Julius",
+    "middle_name": "",
+    "last_name": "Asis",
+    "position": "Sanguguniang Bayan Member",
+    "office": "Sangguniang Bayan",
+    "url": "/assets/img/team/sb-members/julius_asis.jpg",
+    "qualification": [
+    ],
+    "designation": [
+      ],
+    "order": 5,
+    "type": "sb-member"
+  },
+  {
+    "id": "1018",
+    "first_name": "Luis",
+    "middle_name": "",
+    "last_name": "Asis",
+    "position": "Sanguguniang Bayan Member",
+    "office": "Sangguniang Bayan",
+    "url": "/assets/img/team/sb-members/luis_asis.jpg",
+    "qualification": [
+    ],
+    "designation": [
+      ],
+    "order": 6,
+    "type": "sb-member"
+  },
+  {
+    "id": "1019",
+    "first_name": "Arlan",
+    "middle_name": "",
+    "last_name": "Baes",
+    "position": "Sanguguniang Bayan Member",
+    "office": "Sangguniang Bayan",
+    "url": "/assets/img/team/sb-members/arlan_baes.jpg",
+    "qualification": [
+    ],
+    "designation": [
+      "Committee on Trade & Industry and Tourism Promotion",
+      "Committee on Agriculture and Fishery",
+      "Oversight Committee"
+      ],
+    "order": 7,
+    "type": "sb-member"
+  },
+  {
+    "id": "1020",
+    "first_name": "Alexander Richard Rommel",
+    "middle_name": "",
+    "last_name": "Arches",
+    "position": "Sanguguniang Bayan Member",
+    "office": "Sangguniang Bayan",
+    "url": "/assets/img/team/sb-members/alexander_richard_rommel_arches.jpg",
+    "qualification": [
+    ],
+    "designation": [
+      "Committee on Ways and Mean",
+      "Committee on Cooperatives, Labor and People Empowerment",
+      "Committee on Social Welfare, Human Rights and Public Order and Safety"
+      ],
+    "order": 8,
+    "type": "sb-member"
+  },
+  {
+    "id": "1021",
+    "first_name": "Lito",
+    "middle_name": "",
+    "last_name": "Baria",
+    "position": "Sanguguniang Bayan Member",
+    "office": "Sangguniang Bayan",
+    "url": "/assets/img/team/sb-members/lito_baria.jpg",
+    "qualification": [
+    ],
+    "designation": [
+      ],
+    "order": 9,
+    "type": "sb-member"
+  },
+  {
+    "id": "1022",
+    "first_name": "Rogelio",
+    "middle_name": "",
+    "last_name": "Besorio",
+    "position": "Sanguguniang Bayan Member",
+    "office": "Sangguniang Bayan",
+    "url": "/assets/img/team/sb-members/rogelio_besorio.jpg",
+    "qualification": [
+    ],
+    "designation": [
+      "Committee on Rules and Good Government",
+      "Committee on Education and Culture & The Arts",
+      "Committee on Education and Culture & the Arts"
+      ],
+    "order": 10,
+    "type": "sb-member"
   }
 ]
