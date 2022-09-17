@@ -32,8 +32,8 @@ function displayData() {
             .join('<br>')}</td>
           <td>${data.office}</td>
           <td class="${data.status === 'Closed' ? 'text-danger' : ''}">${
-      data.status
-    }</td>
+        data.status
+      }</td>
         </tr>
         `;
     })
@@ -44,7 +44,7 @@ function displayData() {
 function findMatches(wordToMatch, positions) {
   return positions
     .sort((next, prev) => {
-      (next, prev);
+      next, prev;
       let prevDate = new Date(prev.dateCreated);
       let nextDate = new Date(next.dateCreated);
       return prevDate - nextDate;
@@ -106,7 +106,7 @@ function resolveAfter2Seconds() {
 }
 
 async function asyncCall() {
-  console.log('calling');
+  console.log('calling publication');
   const result = await resolveAfter2Seconds();
   console.log(result);
   displayData();

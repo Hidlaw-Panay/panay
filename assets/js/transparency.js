@@ -1,32 +1,33 @@
 const url = {
-    'bayanihan-grants': '/assets/files/transparency/bayanihan-grants.json',
-    'citizen-charter': '/assets/files/transparency/citizen-charter.json'
-}
+  'bayanihan-grants': '/assets/files/transparency/bayanihan-grants.json',
+  'citizen-charter': '/assets/files/transparency/citizen-charter.json',
+};
 
 let records = [];
 let transparencyDiv = document.getElementById('transparency');
 let category;
 
 function handleClick(e) {
-    category = e.getAttribute('data-category');
-    transparencyDiv.innerHTML = '<div class="text-center"><div class="spinner-border text-danger" role="status"><span class="visually-hidden">Loading...</span></div></div>';
+  category = e.getAttribute('data-category');
+  transparencyDiv.innerHTML =
+    '<div class="text-center"><div class="spinner-border text-danger" role="status"><span class="visually-hidden">Loading...</span></div></div>';
 
-    records = [];
-    console.log(url[category]);
-    fetch(url[category])
+  records = [];
+
+  fetch(url[category])
     .then((blob) => blob.json())
     .then((data) => records.push(...data));
-    
-    asyncCall();
+
+  asyncCall();
 }
 
 function displayCharterData() {
-    const html = records
-        .sort((next, prev) => {
-            return next.order - prev.order;
-        })
-        .map((data) => {
-            return `
+  const html = records
+    .sort((next, prev) => {
+      return next.order - prev.order;
+    })
+    .map((data) => {
+      return `
             <div class="accordion accordion-flush" id="accordionFlush${data.tag}">
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="flush-heading${data.tag}">
@@ -44,26 +45,36 @@ function displayCharterData() {
                 </div>
             </div>
             `;
-        })
-        .join('');
-    transparencyDiv.innerHTML = html;
+    })
+    .join('');
+  transparencyDiv.innerHTML = html;
 }
 
 function displayGrantData() {
-    const html = records
-        .sort((next, prev) => {
-            return next.order - prev.order;
-        })
-        .map((data) => {
-            return `
-            <div class="accordion accordion-flush" id="accordionFlush${data.tag}">
+  const html = records
+    .sort((next, prev) => {
+      return next.order - prev.order;
+    })
+    .map((data) => {
+      return `
+            <div class="accordion accordion-flush" id="accordionFlush${
+              data.tag
+            }">
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="flush-heading${data.tag}">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-${data.tag}" aria-expanded="false" aria-controls="flush-collapse-${data.tag}">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-${
+                      data.tag
+                    }" aria-expanded="false" aria-controls="flush-collapse-${
+        data.tag
+      }">
                         ${data.title}
                     </button>
                     </h2>
-                    <div id="flush-collapse-${data.tag}" class="accordion-collapse collapse" aria-labelledby="flush-heading${data.tag}" data-bs-parent="#accordionFlush${data.tag}">
+                    <div id="flush-collapse-${
+                      data.tag
+                    }" class="accordion-collapse collapse" aria-labelledby="flush-heading${
+        data.tag
+      }" data-bs-parent="#accordionFlush${data.tag}">
                     <div class="accordion-body">
                         <div class="table-responsive">
                             <table class="table table-bordered table-striped table-hover">
@@ -83,7 +94,8 @@ function displayGrantData() {
                                     </tr>
                                 </thead>
                                 <tbody>
-                                ${Object.values(data.value).map((v) => {
+                                ${Object.values(data.value)
+                                  .map((v) => {
                                     return `
                                         <tr>
                                             <td>${v.source}</td>
@@ -99,7 +111,8 @@ function displayGrantData() {
                                             <td>${v.status}</td>
                                         </tr>
                                     `;
-                                }).join('')}
+                                  })
+                                  .join('')}
                                 </tbody>
                             </table>
                         </div>
@@ -107,30 +120,29 @@ function displayGrantData() {
                 </div>
             </div>
             `;
-        })
-        .join('');
-    transparencyDiv.innerHTML = html;
+    })
+    .join('');
+  transparencyDiv.innerHTML = html;
 }
 
 function resolveAfter2Seconds() {
-    return new Promise((resolve) => {
-        setTimeout(() => {
-            resolve('resolved');
-        }, 2000);
-    })
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      resolve('resolved');
+    }, 2000);
+  });
 }
 
 async function asyncCall() {
-    console.log('calling');
-    const result = await resolveAfter2Seconds();
-    console.log(result);
-    console.log(category);
-    if(category === 'bayanihan-grants') {
-        displayGrantData();
-    } else if(category === 'citizen-charter') {
-        displayCharterData();
-    }
-    // expected output: "resolved"
+  console.log('calling');
+  const result = await resolveAfter2Seconds();
+  console.log(result);
+  if (category === 'bayanihan-grants') {
+    displayGrantData();
+  } else if (category === 'citizen-charter') {
+    displayCharterData();
+  }
+  // expected output: "resolved"
 }
 
 asyncCall();
