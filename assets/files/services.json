@@ -1,0 +1,174 @@
+[
+    {
+      "id": "5001",
+      "title": "Health Services",
+      "category": "health",
+      "services": [
+        "Medical Consultation",
+        "Availing of Medico Legal/Medical Certificate",
+        "Dental Consultations",
+        "TB DOTS (Direct Observe Treatment Short Course Chemotherapy) Services",
+        "Laboratory Services",
+        "Maternal Health Care (Prenatal/Post Natal) Services",
+        "Birthing Clinic Services",
+        "Newborn Screening",
+        "Family Planning Services",
+        "Immunization Services",
+        "Issuance of Sanitary Permit and Health Card",
+        "Post Mortem Examination"
+      ],
+      "contact": "6202-068"
+    },
+    {
+      "id": "5002",
+      "title": "Registry",
+      "category": "registry",
+      "services": [
+        "On-Time Registration of Certificate of Birth for New Born Child",
+        "Delayed Registration of Certificate of Live Birth",
+        "Issuance of Certified True Copy of Births, Marriage and Death",
+        "Issuance of Application for Marriage License",
+        "Registration of Death",
+        "Registration of Marriage",
+        "Petition for Change of First Name/Clerical Error/Sex and Date of Birth"
+      ],
+      "contact": "8208-347"
+    },
+    {
+      "id": "5003",
+      "title": "Social Welfare",
+      "category": "social-welfare",
+      "services": [
+        "Availing of Assistance to Individuals in Crisis Situations",
+        "Availing of Social Case Study/Referrals",
+        "Issuance of Senior Citizen’s ID Cards and Booklets",
+        "Issuance of the Certificate of Indigency",
+        "Issuance of Persons with Disabilities Identification Card and Purchase Booklets",
+        "Issuance of Solo Parent Identification Card ",
+        "Promoting the Welfare of Socially Disadvantaged Women (VAWC)",
+        "Care and Protection for Children in Need of Special Protection",
+        "Intervention and Diversion Program for Children in Conflict with the Law",
+        "Pre-Marriage Counselling"
+      ],
+      "contact": "NA"
+    },
+    {
+      "id": "5005",
+      "title": "Disaster Risk Management",
+      "category": "disaster-risk-management",
+      "services": [
+        "Request for the Conduct of Trainings, Drills, or Lectures",
+        "Request for Emergency Response Service",
+        "Request for Non-Emergency Transport of Patient",
+        "Request for Certification for Disaster and Calamity Victims",
+        "Provision of Technical Assistance for Review of Barangay Disaster Risk Reduction Management Plan"
+      ],
+      "contact": "6515-624"
+    },
+    {
+      "id": "5006",
+      "title": "Engineering and Public Works",
+      "category": "engineering",
+      "services": [
+        "Securing Building Permit",
+        "Technical Assistance for the Preparation of Program of Works",
+        "Securing Occupancy Permit",
+        "Securing Electrical Permit"
+      ],
+      "contact": "6210-454"
+    },
+    {
+      "id": "5007",
+      "title": "Environment and Natural Resources",
+      "category": "environment",
+      "services": [
+        "Processing of Fishing Permit and Boat Registration",
+        "Settlement of Apprehended Illegal Fishing and Other Fishery Conflicts"
+      ],
+      "contact": "NA"
+    },
+    {
+      "id": "5008",
+      "title": "Planning and Development",
+      "category": "planning",
+      "services": [
+        "Issuance of Locational Clearance/Zoning Certificate",
+        "New Application and Renewal of Tricycle Permit and Franchise",
+        "Cancellation of Tricycle Permit and Franchise"
+      ],
+      "contact": "6212-021"
+    },
+    {
+      "id": "5009",
+      "title": "Treasury",
+      "category": "treasury",
+      "services": [
+        "Collection of Real Property Tax",
+        "Issuance of Community Tax Certificate (CEDULA)",
+        "Issuance of Official Receipt for Certification",
+        "Issuance of Accountable Form #51 to Barangays",
+        "Issuance of Certificate of RPT Payment",
+        "Payment of Financial Assistance and Valid Claims"
+      ],
+      "contact": "NA"
+    },
+    {
+      "id": "5010",
+      "title": "Permit and Licensing",
+      "category": "permit",
+      "services": [
+        "Application for New/Renewal Business Permits and Licenses",
+        "Retirement of Business"
+      ],
+      "contact": "NA"
+    },
+    {
+      "id": "5011",
+      "title": "Budget",
+      "category": "budget",
+      "services": [
+        "Review of the Barangay and Sangguniang Kabataan Annual Budget, Supplemental Budget and Realignment. (External Service)",
+        "Certificate of Appropriations (Internal Service)"
+      ],
+      "contact": "6214-166"
+    },
+    {
+      "id": "5012",
+      "title": "Accounting",
+      "category": "accounting",
+      "services": [
+        "Securing Certificate of Final Tax Withheld at Source",
+        "Processing of Disbursement Transaction",
+        "Issuance of Accountant's Advice for Check Issued"
+      ],
+      "contact": "6201-856"
+    },
+    {
+      "id": "5013",
+      "title": "Assessor",
+      "category": "assessor",
+      "services": [
+        "Securing Certified True Copy/Machine Copy of Tax Declaration and Certification",
+        "Securing Tax Declaration for Simple Transfer, Subdivision and Consolidation, Reclassification and Discovery of New Property.",
+        "Securing Certification (Landholding, No Real Property, With Real Property, No Improvement on Real Property, With Improvement on Real Property)"
+      ],
+      "contact": "NA"
+    },
+    {
+      "id": "5013",
+      "title": "Agriculture",
+      "category": "agriculture",
+      "services": [
+        "Livestock and Poultry Technology Extension and Animal Health Care Services",
+        "Crop and Livestock Insurance Services",
+        "Submission of Notice of Loss for Crop (Rice and Livestock Insurance)",
+        "Issuance of Agri-Fishery Related Certificates",
+        "Anti-Rabies Vaccination",
+        "Agri-Crop Technology Extension",
+        "IEC (Information, Education and Communication) ",
+        "data"
+      ],
+      "contact": "NA"
+    }
+  ]
+  
