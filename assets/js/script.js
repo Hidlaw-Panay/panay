@@ -1,81 +1,79 @@
 let routeName;
 let blogs = [];
-let blogDiv;
+let blogDiv, blogRecentDiv;
 const header = document.querySelector('#header');
 const featured = document.querySelector('#featured');
 const services = document.querySelector('#services');
 const blog = document.querySelector('#blog');
 const footer = document.querySelector('#footer');
 
-if(header) {
+if (header) {
   fetch('/components/common/header.html')
-  .then((res) => res.text())
-  .then((data) => {
-    header.innerHTML = data;
-  });
+    .then((res) => res.text())
+    .then((data) => {
+      header.innerHTML = data;
+    });
 }
 
-if(featured) {
+if (featured) {
   fetch('/components/home/featured.html')
-  .then((res) => res.text())
-  .then((data) => {
-    featured.innerHTML = data;
-  });
+    .then((res) => res.text())
+    .then((data) => {
+      featured.innerHTML = data;
+    });
 }
 
-if(services) {
+if (services) {
   fetch('/components/home/services.html')
-  .then((res) => res.text())
-  .then((data) => {
-    services.innerHTML = data;
-  });
+    .then((res) => res.text())
+    .then((data) => {
+      services.innerHTML = data;
+    });
 }
 
-if(blog) {
+if (blog) {
   fetch('/components/home/blog.html')
-  .then((res) => res.text())
-  .then((data) => {
-    blog.innerHTML = data;
-  });
+    .then((res) => res.text())
+    .then((data) => {
+      blog.innerHTML = data;
+    });
 }
 
-if(footer) {
+if (footer) {
   fetch('/components/common/footer.html')
-  .then((res) => res.text())
-  .then((data) => {
-    footer.innerHTML = data;
-  });
-
+    .then((res) => res.text())
+    .then((data) => {
+      footer.innerHTML = data;
+    });
 }
 
-window.onload = function() {
+window.onload = function () {
   // set active nav-item
   var mainRoute = window.location.pathname.split('/')[1];
   routeName = mainRoute.split('.')[0];
   setTimeout(() => {
     let navItem = document.querySelector(`[data-route="${routeName}"]`);
 
-    if(navItem) {
-      navItem.classList.add('active')
+    if (navItem) {
+      navItem.classList.add('active');
     }
 
     // set featured blog
     blogDiv = document.getElementById('featured-blog');
-    if(blogDiv) {
+    blogRecentDiv = document.getElementById('recent-posts');
+    if (blogDiv || blogRecentDiv) {
       const url = '/assets/files/blogs.json';
       fetch(url)
         .then((blob) => blob.json())
         .then((data) => blogs.push(...data));
     }
   }, 250);
-
-
-}
+};
 
 function displayData() {
-  if(blogDiv) {
-    if(routeName === 'index') {
-      blogs = blogs.slice(0,1)
+  if (blogDiv) {
+    if (routeName === 'index') {
+      blogs = blogs.slice(0, 1);
     }
     const html = blogs
       .sort((next, prev) => {
@@ -91,7 +89,7 @@ function displayData() {
             </div>
 
             <h2 class="entry-title">
-              <a href="blog-single.html"
+              <a href="/news/news-detail.html"
                 >${data.title}</a
               >
             </h2>
@@ -100,11 +98,11 @@ function displayData() {
               <ul>
                 <li class="d-flex align-items-center">
                   <i class="bi bi-person"></i>
-                  <a href="blog-single.html">${data.author}</a>
+                  <a href="/news/news-detail.html">${data.author}</a>
                 </li>
                 <li class="d-flex align-items-center">
                   <i class="bi bi-clock"></i>
-                  <a href="blog-single.html"
+                  <a href="/news/news-detail.html"
                     ><time datetime="2020-01-01">${data.dateCreated}</time></a
                   >
                 </li>
@@ -112,10 +110,14 @@ function displayData() {
 
             <div class="entry-content">
               <p>
-                ${data.content}
+              ${Object.values(data.content)
+                .map((d) => `<p>${d}`)
+                .join('</p>')}
               </p>
               <div class="read-more">
-                <a href="${data.url}">Read More</a>
+                <a href="/news/news-detail.html" data-slug="${
+                  data.slug
+                }" onclick="setBlogSlug(this)">Read More</a>
               </div>
             </div>
           </article>
@@ -124,7 +126,35 @@ function displayData() {
       .join('');
     blogDiv.innerHTML = html;
   }
-  
+
+  if (blogRecentDiv) {
+    const recentData = blogs
+      .sort((next, prev) => {
+        let prevDate = new Date(prev.dateCreated);
+        let nextDate = new Date(next.dateCreated);
+        return prevDate - nextDate;
+      })
+      .map((data) => {
+        return `
+        <div class="post-item clearfix">
+          <img src="${data.img}" alt="" />
+          <h4>
+            <a href="/news/news-detail.html" data-slug="${data.slug}" onclick="setBlogSlug(this)">
+              ${data.title}
+            </a>
+          </h4>
+          <time datetime="${data.dateCreated}">${data.dateCreated}</time>
+        </div>
+        `;
+      })
+      .join('');
+    blogRecentDiv.innerHTML = recentData;
+  }
+}
+
+function setBlogSlug(e) {
+  slug = e.getAttribute('data-slug');
+  localStorage.setItem('blog-slug', slug);
 }
 
 function resolveAfter2Seconds() {
@@ -136,7 +166,7 @@ function resolveAfter2Seconds() {
 }
 
 async function asyncCall() {
-  console.log('calling');
+  console.log('calling main news');
   const result = await resolveAfter2Seconds();
   console.log(result);
   displayData();

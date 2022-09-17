@@ -1,19 +1,35 @@
 [
     {
       "id": "2001",
-      "title": "Possimus soluta ut id suscipit ea ut. In quo quia et soluta libero sit sint.",
-      "author": "John Doe",
-      "img": "assets/img/blog/blog-3.jpg",
-      "content": "Aut iste neque ut illum qui perspiciatis similique recusandae non. Fugit autem dolorem labore omnis et. Eum temporibus fugiat voluptate enim tenetur sunt omnis. Doloremque est saepe laborum aut. Ipsa cupiditate ex harum at recusandae nesciunt. Ut dolores velit.",
-      "url": "/news/possimus-soluta.html",
-      "dateCreated": "Jan 01 2020  08:00:00 AM"
+      "title": "Tienda de PANAY",
+      "slug": "tienda-de-panay",
+      "author": "Municipality of Panay",
+      "img": "../assets/img/blog/tourism-1.jpg",
+      "content": 
+      [
+        "Bilang selebrasyon sang Provincial Tourism Month 2022 magapatigayon ang Panay Heritage and Tourism Office sang \"TIENDA DE PANAY\" sa maabot nga September 30, 2022 (3:00 PM - onwards) sa atubang sang Centro Turismo de Panay.",
+        "Ini nga aktibidad may tinutuyo nga hatagan dugang nga livelihood opportunities ang aton mga Pan-ayanon nga mga negosyante. Magaserbi man ini nga kick-off activity sang Tourism Initiatives sa idalom sang administrasyon ni Mayor Vic Bermejo nga luyag pasanyugon ang sektor sang turismo sa Panay."
+      ],
+      "categories": [
+        "Event",
+        "Tourism"
+      ],
+      "url": "/news/tienda-de-panay.html",
+      "dateCreated": "Sep 10 2022  08:00:00 AM"
     },
     {
-        "id": "2001",
+        "id": "2002",
         "title": "Dolorum optio tempore voluptas dignissimos cumque fuga qui quibusdam quia",
+        "slug": "dolorum-optio",
         "author": "John Doe",
-        "img": "assets/img/blog/blog-1.jpg",
-        "content": "Similique neque nam consequuntur ad non maxime aliquam quas. Quibusdam animi praesentium. Aliquam et laboriosam eius aut nostrum quidem aliquid dicta. Et eveniet enim. Qui velit est ea dolorem doloremque deleniti aperiam unde soluta. Est cum et quod quos aut ut et sit sunt. Voluptate porro consequatur assumenda perferendis dolore.",
+        "img": "../assets/img/blog/blog-1.jpg",
+        "content": [
+          "Similique neque nam consequuntur ad non maxime aliquam quas. Quibusdam animi praesentium. Aliquam et laboriosam eius aut nostrum quidem aliquid dicta. Et eveniet enim. Qui velit est ea dolorem doloremque deleniti aperiam unde soluta. Est cum et quod quos aut ut et sit sunt. Voluptate porro consequatur assumenda perferendis dolore."
+        ],
+        "categories": [
+          "Event",
+          "Tourism"
+        ],
         "url": "google.com",
         "dateCreated": "Jan 02 2020  08:00:00 AM"
     }
