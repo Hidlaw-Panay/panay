@@ -2174,6 +2174,15 @@ section {
   font-size: 14px;
 }
 
+.page .logo {
+  background: url('../img/business/ibpls-logo-white.png') center no-repeat;
+  background-size: contain;
+  background-color:#6c757d;
+  width: auto;
+  height: 50px;
+  border-radius: 8px;
+}
+
 /*--------------------------------------------------------------
 # News
 --------------------------------------------------------------*/
