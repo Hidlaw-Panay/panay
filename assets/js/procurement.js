@@ -48,7 +48,7 @@ function displayData() {
                     <li>${data.deadline ? data.deadline : 'None'}</li>
                     <li>${data.opening ? data.opening : 'None'}</li>
                     <li>
-                        ${data.url ? `<a class="btn btn-sm btn-secondary" href="${data.url}" download><i class="bi bi-download text-light"></i> Download</a>` : ''}
+                      ${data.url ? `<a class="btn btn-sm btn-secondary" href="${data.url}" target="_blank"><i class="bi bi-eye text-light"></i> View</a>` : ''}
                     </li>
                     <li class="${data.status === 'Closed' ? 'text-danger' : 'text-success'}">
                         ${data.status}
@@ -109,7 +109,7 @@ function displayMatches() {
                     <li>${data.deadline ? data.deadline : 'None'}</li>
                     <li>${data.opening ? data.opening : 'None'}</li>
                     <li>
-                        ${data.url ? `<a class="btn btn-sm btn-secondary" href="${data.url}" download><i class="bi bi-download text-light"></i> Download</a>` : ''}
+                        ${data.url ? `<a class="btn btn-sm btn-secondary" href="${data.url}" target="_blank"><i class="bi bi-eye text-light"></i> View</a>` : ''}
                     </li>
                     <li class="${data.status === 'Closed' ? 'text-danger' : 'text-success'}">
                         ${data.status}
