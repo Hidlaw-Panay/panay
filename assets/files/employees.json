@@ -11,7 +11,7 @@
     ],
     "designation": [
       ],
-    "order": 1,
+    "order": 9,
     "type": "department-head"
   },
   {
@@ -41,7 +41,7 @@
     ],
     "designation": [
       ],
-    "order": 3,
+    "order": 4,
     "type": "department-head"
   },
   {
@@ -49,7 +49,7 @@
     "first_name": "Jese",
     "middle_name": "",
     "last_name": "Baes",
-    "position": "Department Head",
+    "position": "OIC, MPDO",
     "office": "Municipal Disaster Risk Reduction and Management Office",
     "url": "/assets/img/team/department-heads/Jese_Baes_MDRRMO.jpg",
     "qualification": [
@@ -71,7 +71,7 @@
     ],
     "designation": [
       ],
-    "order": 5,
+    "order": 11,
     "type": "department-head"
   },
   {
@@ -86,7 +86,7 @@
     ],
     "designation": [
       ],
-    "order": 6,
+    "order": 1,
     "type": "department-head"
   },
   {
@@ -101,7 +101,7 @@
     ],
     "designation": [
       ],
-    "order": 7,
+    "order": 3,
     "type": "department-head"
   },
   {
@@ -116,7 +116,7 @@
     ],
     "designation": [
       ],
-    "order": 8,
+    "order": 5,
     "type": "department-head"
   },
   {
@@ -131,7 +131,7 @@
     ],
     "designation": [
       ],
-    "order": 9,
+    "order": 7,
     "type": "department-head"
   },
   {
@@ -146,7 +146,7 @@
     ],
     "designation": [
       ],
-    "order": 10,
+    "order": 8,
     "type": "department-head"
   },
   {
@@ -161,7 +161,7 @@
     ],
     "designation": [
       ],
-    "order": 11,
+    "order": 10,
     "type": "department-head"
   },
   {
@@ -179,7 +179,7 @@
       "Committee on Environment and Natural Resources and Solid Waste Management",
       "Committee on Environment and Natural Resources and Solid Waste Management"
       ],
-    "order": 1,
+    "order": 11,
     "type": "sb-member"
   },
   {
@@ -196,7 +196,7 @@
       "Committee on Women, Children and Family",
       "Committee on Youth and Sports Development"      
       ],
-    "order": 2,
+    "order": 12,
     "type": "sb-member"
   },
   {
@@ -277,7 +277,7 @@
       "Committee on Agriculture and Fishery",
       "Oversight Committee"
       ],
-    "order": 7,
+    "order": 6,
     "type": "sb-member"
   },
   {
