@@ -13,6 +13,39 @@ if (header) {
     .then((data) => {
       header.innerHTML = data;
     });
+
+  document.addEventListener("DOMContentLoaded", function(event) { 
+    const on = (type, el, listener, all = false) => {
+      let selectEl = select(el, all);
+      if (selectEl) {
+        if (all) {
+          selectEl.forEach((e) => e.addEventListener(type, listener));
+        } else {
+          selectEl.addEventListener(type, listener);
+        }
+      }
+    };
+  
+    /**
+     * Easy selector helper function
+     */
+    const select = (el, all = false) => {
+      el = el.trim();
+      if (all) {
+        return [...document.querySelectorAll(el)];
+      } else {
+        return document.querySelector(el);
+      }
+    };
+  
+    on('click', '.mobile-nav-toggle', function (e) {
+      select('#navbar').classList.toggle('navbar-mobile');
+      this.classList.toggle('bi-list');
+      this.classList.toggle('bi-x');
+    });
+  });
+      
+  
 }
 
 if (featured) {
@@ -166,9 +199,7 @@ function resolveAfter2Seconds() {
 }
 
 async function asyncCall() {
-  console.log('calling main news');
   const result = await resolveAfter2Seconds();
-  console.log(result);
   displayData();
   // expected output: "resolved"
 }

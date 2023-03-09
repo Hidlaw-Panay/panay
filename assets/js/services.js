@@ -60,9 +60,7 @@ function resolveAfter2Seconds() {
 }
 
 async function asyncCall() {
-  console.log('calling services');
   const result = await resolveAfter2Seconds();
-  console.log(result);
   displayService();
   // expected output: "resolved"
 }

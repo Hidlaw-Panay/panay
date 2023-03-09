@@ -43,9 +43,7 @@ function resolveAfter2Seconds() {
 }
 
 async function asyncCall() {
-  console.log('calling employees');
   const result = await resolveAfter2Seconds();
-  console.log(result);
   displayData();
   // expected output: "resolved"
 }

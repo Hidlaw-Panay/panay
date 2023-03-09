@@ -71,9 +71,7 @@ function resolveAfter2Seconds() {
 }
 
 async function asyncCall() {
-  console.log('calling blogs');
   const result = await resolveAfter2Seconds();
-  console.log(result);
   displayBlog();
   // expected output: "resolved"
 }
