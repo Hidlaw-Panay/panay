@@ -8,11 +8,11 @@
       "Career Service Sub Professional/First Level Eligibility"
     ],
     "office": "Municipal Treasurer's Office",
-    "status": "Vacant",
+    "status": "Closed",
     "dateCreated": "Mar 12 2020  08:00:00 AM"
   },
   {
-    "id": "4732",
+    "id": "4734",
     "position": "IT Administrator",
     "grade": "5",
     "qualification": [
@@ -22,5 +22,134 @@
     "office": "Municipal Mayor's Office",
     "status": "Closed",
     "dateCreated": "Mar 12 2012 08:00:00 AM"
+  },
+  {
+    "id": "4735",
+    "position": "Aquacultural Technician I",
+    "grade": "6",
+    "qualification": [
+      "Completion of two years studies in college",
+      "1 year relevant experience",
+      "4 hours of relevant training",
+      "Career Service (Subprofessional) First Level Eligibility"
+    ],
+    "office": "Municipal Agriculture Office",
+    "status": "Open",
+    "dateCreated": "Mar 25 2023 08:00:00 AM"
+  },
+  {
+    "id": "4736",
+    "position": "Livestock Inspector I",
+    "grade": "6",
+    "qualification": [
+      "Completion of two years studies in college",
+      "1 year relevant experience",
+      "4 hours of relevant training",
+      "Career Service (Subprofessional) First Level Eligibility"
+    ],
+    "office": "Municipal Agriculture Office",
+    "status": "Open",
+    "dateCreated": "Mar 25 2023 08:00:00 AM"
+  },
+  {
+    "id": "4737",
+    "position": "Administrative Officer V",
+    "grade": "18",
+    "qualification": [
+      "Bachelors Degree",
+      "Career Service (Professional) Second Level Eligibility"
+    ],
+    "office": "Municipal Economic Enterprise and Development Office",
+    "status": "Open",
+    "dateCreated": "Mar 25 2023 08:00:00 AM"
+  },
+  {
+    "id": "4738",
+    "position": "Information System Analyst I",
+    "grade": "12",
+    "qualification": [
+      "Bachelor's degree of relevant to the job",
+      "Career Service (Professional) Second Level Eligibility"
+    ],
+    "office": "Municipal Mayor's Office",
+    "status": "Open",
+    "dateCreated": "Mar 25 2023 08:00:00 AM"
+  },
+  {
+    "id": "4739",
+    "position": "Administrative Assistant II (Human Resource Management Assistant)",
+    "grade": "8",
+    "qualification": [
+      "Bachelor's degree of relevant to the job",
+      "Career Service (Subprofessional) First Level Eligibility"
+    ],
+    "office": "Municipal Mayor's Office",
+    "status": "Open",
+    "dateCreated": "Mar 25 2023 08:00:00 AM"
+  },
+  {
+    "id": "4740",
+    "position": "Administrative Aide III (Utility Worker II)",
+    "grade": "3",
+    "qualification": [
+      "Completion of two years studies in college"
+    ],
+    "office": "Municipal Mayor's Office",
+    "status": "Open",
+    "dateCreated": "Mar 25 2023 08:00:00 AM"
+  },
+  {
+    "id": "4741",
+    "position": "Building Inspector",
+    "grade": "11",
+    "qualification": [
+      "Bachelor's degree of relevant to the job",
+      "Career Service (Professional) Second Level Eligibility"
+    ],
+    "office": "Municipal Engineering Office",
+    "status": "Open",
+    "dateCreated": "Mar 25 2023 08:00:00 AM"
+  },
+  {
+    "id": "4742",
+    "position": "Planning Officer III",
+    "grade": "18",
+    "qualification": [
+      "Bachelor's degree of relevant to the job",
+      "2 years of relevant experience",
+      "8 hours relevant training",
+      "Career Service (Professional) Second Level Eligibility"
+    ],
+    "office": "Municipal Planning and Development Office",
+    "status": "Open",
+    "dateCreated": "Mar 25 2023 08:00:00 AM"
+  },
+  {
+    "id": "4743",
+    "position": "Administrative Assistant II (Bookkeeper I)",
+    "grade": "8",
+    "qualification": [
+      "Completion of two years studies in college",
+      "1 year relevant experience",
+      "4 hours relevant training",
+      "Career Service (Subprofessional) First Level Eligibility"
+    ],
+    "office": "Municipal Accounting Office",
+    "status": "Open",
+    "dateCreated": "Mar 25 2023 08:00:00 AM"
+  },
+  {
+    "id": "4744",
+    "position": "Local Disaster and Risk Reduction Management Officer IV",
+    "grade": "22",
+    "qualification": [
+      "Bachelor's degree of relevant to the job",
+      "1 year relevant experience",
+      "4 hours relevant training",
+      "Career Service (Professional) Second Level Eligibility"
+    ],
+    "office": "Municipal Accounting Office",
+    "status": "Open",
+    "dateCreated": "Mar 25 2023 08:00:00 AM"
   }
 ]
