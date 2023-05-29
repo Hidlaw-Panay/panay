@@ -8,7 +8,13 @@
   <nav id="navbar" class="navbar">
     <ul>
       <li><a href="/index.html" data-route="index">Home</a></li>
-      <li><a href="/about.html" data-route="about">About Panay</a></li>
+      <li class="dropdown">
+        <a href="#"><span>About Panay</span> <i class="bi bi-chevron-down"></i></a>
+        <ul>
+          <li><a class="btn" href="/about.html">About</a></li>
+          <li><a class="btn" href="/history.html">History of Panay</a></li>
+        </ul>
+      </li>
       <li>
         <a href="/transparency.html" data-route="transparency">Transparency</a>
       </li>
@@ -58,7 +64,7 @@
       <li><a href="/news.html" data-route="news">News</a></li>
       <li><a href="/contact.html" data-route="contact">Contact</a></li>
       <li>
-        <a href="/lingga-anay/index.html"
+        <a href="/lingga-anay/"
           ><span class="btn btn-sm btn-danger"
             ><i class="bx bxs-bell"></i> Lingga-anay 2023</span
           ></a
