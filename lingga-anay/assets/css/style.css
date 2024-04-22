@@ -921,6 +921,24 @@ h6 {
   margin-bottom: 0;
 }
 
+#schedule .schedule-item .highlight {
+  font-style: normal;
+  font-weight: 600;
+  color: #f82249;
+  font-size: 18px;
+}
+
+#schedule ul {
+  margin-top: 2rem;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+#schedule .schedule-item ul li {
+  list-style: none;
+}
+
+
 /*--------------------------------------------------------------
 # Venue Section
 --------------------------------------------------------------*/
