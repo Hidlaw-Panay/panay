@@ -1133,9 +1133,11 @@ h6 {
   border-bottom: 1px solid #e0e5fa;
   overflow: hidden;
   background: rgba(255, 255, 255, 0.5);
-  height: 160px;
 }
 
+#supporters .supporter-logo .logo-size {
+  height:  70px;
+}
 #supporters .supporter-logo:hover img {
   transform: scale(1.2);
 }
